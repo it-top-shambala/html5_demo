@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+}
+
+.def(@color) {
+	background-color: hsla(@color, 75%, 75%, 0.5);
+	border: gray dotted 1px;
+	margin: 5px;
+	padding: 5px;
+}
+
+body {
+	padding: 20px;
+
+	& > header {
+		.def(15);
+	}
+
+	& > nav {
+		.def(25);
+
+		& > ul {
+			list-style: none;
+
+			& > li {
+				display: inline;
+			}
+		}
+	}
+
+	& > div {
+		& > aside {
+			.def(35);
+		}
+
+		& > main {
+			.def(45);
+
+			& > section {
+				.def(55);
+
+				& > header {
+					.def(65);
+				}
+
+				& > div {
+					.def(75);
+				}
+
+				& > footer {
+					.def(85);
+				}
+			}
+		}
+	}
+
+	& > footer {
+		.def(95);
+	}
+}

@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+body {
+  padding: 20px;
+}
+body > header {
+  background-color: hsla(15, 75%, 75%, 0.5);
+  border: gray dotted 1px;
+  margin: 5px;
+  padding: 5px;
+}
+body > nav {
+  background-color: hsla(25, 75%, 75%, 0.5);
+  border: gray dotted 1px;
+  margin: 5px;
+  padding: 5px;
+}
+body > nav > ul {
+  list-style: none;
+}
+body > nav > ul > li {
+  display: inline;
+}
+body > div > aside {
+  background-color: hsla(35, 75%, 75%, 0.5);
+  border: gray dotted 1px;
+  margin: 5px;
+  padding: 5px;
+}
+body > div > main {
+  background-color: hsla(45, 75%, 75%, 0.5);
+  border: gray dotted 1px;
+  margin: 5px;
+  padding: 5px;
+}
+body > div > main > section {
+  background-color: hsla(55, 75%, 75%, 0.5);
+  border: gray dotted 1px;
+  margin: 5px;
+  padding: 5px;
+}
+body > div > main > section > header {
+  background-color: hsla(65, 75%, 75%, 0.5);
+  border: gray dotted 1px;
+  margin: 5px;
+  padding: 5px;
+}
+body > div > main > section > div {
+  background-color: hsla(75, 75%, 75%, 0.5);
+  border: gray dotted 1px;
+  margin: 5px;
+  padding: 5px;
+}
+body > div > main > section > footer {
+  background-color: hsla(85, 75%, 75%, 0.5);
+  border: gray dotted 1px;
+  margin: 5px;
+  padding: 5px;
+}
+body > footer {
+  background-color: hsla(95, 75%, 75%, 0.5);
+  border: gray dotted 1px;
+  margin: 5px;
+  padding: 5px;
+}
+/*# sourceMappingURL=default.css.map */
